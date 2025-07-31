@@ -1,10 +1,10 @@
 const { Router } = require('express');
-const { indexGet } = require("../controllers/indexController");
+const { indexGetPage } = require("../controllers/indexController");
 
 
 const indexRouter = Router();
 
-indexRouter.get("/",indexGet);
+indexRouter.get("/",indexGetPage);
 
 
 
